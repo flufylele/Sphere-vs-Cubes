@@ -5,8 +5,8 @@ using System.Collections.Generic;
 public class Player_Collision : MonoBehaviour
 {
     public Rigidbody rb;
-    
    
+
 
 
 
@@ -15,15 +15,12 @@ public class Player_Collision : MonoBehaviour
     {
         if(coliziune.collider.tag== "Obstacle_hit")
         {
-
            
             FindObjectOfType<GameManager>().GameOver();
-
-
             
 
-            
         }
+
     }
 
     

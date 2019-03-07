@@ -805,7 +805,7 @@ GameObject:
   m_Layer: 0
   m_Name: End
   m_TagString: Untagged
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2958,6 +2958,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2800092314554874590, guid: e3a34251fe2c7e84baef83f7fcebbf08,
+        type: 3}
+      propertyPath: ForceMovementForward
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800092314554874590, guid: e3a34251fe2c7e84baef83f7fcebbf08,
+        type: 3}
+      propertyPath: ForceMovementSideways
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 2800092314554874591, guid: e3a34251fe2c7e84baef83f7fcebbf08,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3012,6 +3022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800092314554874585, guid: e3a34251fe2c7e84baef83f7fcebbf08,
+        type: 3}
+      propertyPath: m_Drag
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3a34251fe2c7e84baef83f7fcebbf08, type: 3}

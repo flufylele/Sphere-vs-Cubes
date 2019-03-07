@@ -18,5 +18,6 @@ public class AutoMovement : MonoBehaviour
         }
         else current = (current + 1) % target.Length;
 
-    }
+    } 
+    
 }
